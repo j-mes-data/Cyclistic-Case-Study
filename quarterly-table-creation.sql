@@ -1,7 +1,5 @@
+-- After uploading datasets to BigQuery via Google Cloud bucket, I created 4 new tables for each Quarter of the year. This allowed me to more easily analyze the datasets, as well as do it on a seasonal basis. I also added 2 new columns to these tables: duration_minutes and day_of_week
 
--- After uploading datasets to BigQuery via Google Cloud bucket, I created 4 new tables for each Quarter of the year. 
-This allowed me to more easily analyze the datasets, as well as do it on a seasonal basis. 
-I also added 2 new columns to these tables: duration_minutes and day_of_week
 
 CREATE TABLE big-query-practice-413618.Cyclistic_data.Q1_24_trips_w_duration AS
 SELECT
